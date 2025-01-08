@@ -1,0 +1,17 @@
+services:
+  auctionservices:
+    image: ${DOCKER_REGISTRY-}auctionservices
+    build:
+      context: .
+      dockerfile: AuctionServices/Dockerfile
+  database:
+    image: postgres
+    container_name: database_postgres
+    environment:
+        - POSTGRES_PASSWORD=postgrespw
+    ports:
+        - 5432:5432
+    volumes:
+        - pgdata:/var/lib/postresql/data
+volumes:
+  pgdata:
