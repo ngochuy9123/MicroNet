@@ -9,6 +9,8 @@ Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchService", "SearchService\SearchService.csproj", "{ACF43A21-B3D9-4213-9BAE-BE8DCE3E91FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{5B99F426-38E0-4A26-B6C9-3D981CC0199B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{ACF43A21-B3D9-4213-9BAE-BE8DCE3E91FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACF43A21-B3D9-4213-9BAE-BE8DCE3E91FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACF43A21-B3D9-4213-9BAE-BE8DCE3E91FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B99F426-38E0-4A26-B6C9-3D981CC0199B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B99F426-38E0-4A26-B6C9-3D981CC0199B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B99F426-38E0-4A26-B6C9-3D981CC0199B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B99F426-38E0-4A26-B6C9-3D981CC0199B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
