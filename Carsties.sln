@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuctionServices", "AuctionS
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{0A56975D-9911-4717-9354-B266AB04F098}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchService", "..\SearchService\SearchService.csproj", "{B2F97ACE-344C-4084-9C2B-7E48210BC711}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchService", "SearchService\SearchService.csproj", "{ACF43A21-B3D9-4213-9BAE-BE8DCE3E91FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{0A56975D-9911-4717-9354-B266AB04F098}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A56975D-9911-4717-9354-B266AB04F098}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A56975D-9911-4717-9354-B266AB04F098}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B2F97ACE-344C-4084-9C2B-7E48210BC711}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B2F97ACE-344C-4084-9C2B-7E48210BC711}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B2F97ACE-344C-4084-9C2B-7E48210BC711}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B2F97ACE-344C-4084-9C2B-7E48210BC711}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACF43A21-B3D9-4213-9BAE-BE8DCE3E91FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACF43A21-B3D9-4213-9BAE-BE8DCE3E91FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACF43A21-B3D9-4213-9BAE-BE8DCE3E91FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACF43A21-B3D9-4213-9BAE-BE8DCE3E91FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
